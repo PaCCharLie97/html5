@@ -1,0 +1,75 @@
+
+body
+    {
+        background-color: rgb(252, 243, 214);
+        margin-left: 225px;
+        margin-right: 225px;
+    }
+
+@font-face
+    {
+        font-family: 'ballpark';
+        src: url('BALLW___.TTF') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+@font-face
+    {
+        font-family: 'dayrom';
+        src: url('DAYROM__.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+header
+    {
+        width: 100%;
+    }
+
+header > div > div > h1
+    {
+        display: inline-block;
+        font-family: ballpark;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 120;
+        font-stretch: extra-condensed;
+        padding: 0;
+        margin: 0;
+    }
+
+header > div > h2
+    {
+        font-family: dayrom;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 120;
+        float: unset;
+        padding: 0;
+        margin-top: 0;
+    }
+    
+header > div > nav > a
+    {
+        font-family: dayrom;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 120;
+        color: black;
+        text-decoration: none;
+        position: relative;
+    }
+
+section > article > h1
+    {
+        font-family: dayrom;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 120;
+    }
+
+section > article > div > img
+    {
+
+    }

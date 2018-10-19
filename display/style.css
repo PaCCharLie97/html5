@@ -1,0 +1,4 @@
+section {background-color: coral; width: 700px; height: 700px; text-align: center}
+
+section > article.red {background-color: red; width: 200px; height: 200px; display: inline-block; position: absolute}
+section > article.blue {background-color: blue; width: 200px; height: 200px; display: inline-block; float: right}
